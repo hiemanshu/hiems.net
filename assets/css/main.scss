@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 @import "variables";
-@import "base";
 
 @import 'bulma/bulma';
+
+.hero-video {
+  .header-video {
+    object-fit: cover;
+  }
+
+  @include mobile {
+    display: block !important;
+  }
+}
