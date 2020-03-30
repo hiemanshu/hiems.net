@@ -15,3 +15,17 @@
     display: block !important;
   }
 }
+
+.section {
+  .section-header {
+    padding-bottom: 3rem;
+  }
+
+  .column {
+    padding-bottom: 3rem;
+
+    .title {
+      padding-bottom: 2rem;
+    }
+  }
+}
