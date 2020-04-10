@@ -18,15 +18,38 @@
 
 .section {
   .section-header {
-    padding-bottom: 3rem;
+    padding-bottom: $standard-padding;
   }
 
   .column {
-    padding-bottom: 3rem;
+    padding-bottom: $standard-padding;
 
     .title {
       padding-top: 2rem;
       padding-bottom: 2rem;
+    }
+  }
+
+  .column.contact-me-form {
+    padding-top: $standard-padding;
+    padding-right: $standard-padding;
+    border-right: $border;
+  }
+
+  .column.contact-details {
+    padding-top: $standard-padding;
+    padding-left: $standard-padding;
+
+    .contact-section {
+      padding: $standard-padding;
+
+      &:not(:last-child) {
+        border-bottom: $border;
+      }
+
+      i {
+        padding-right: 1rem;
+      }
     }
   }
 }
