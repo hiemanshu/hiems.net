@@ -29,12 +29,18 @@
     }
   }
 
-  .section-about {
+  &.section-about {
     .column {
       .title {
         padding-top: 0;
         padding-bottom: 1rem;
       }
+    }
+  }
+
+  &.section-work {
+    .column {
+      display: flex;
     }
   }
 
